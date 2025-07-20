@@ -1,0 +1,78 @@
+@import 'tailwindcss';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.hero-section{
+    background-color: #e8f0f8;
+    padding: 50px;
+    text-align: center;
+    font-size:40px;
+    font-weight: 700;   
+    width: fit-content;
+}
+
+.Form{
+    height: 450px;
+    /* border: 1px solid; */
+    width: 400px;
+    margin: 20px auto;
+    background-color: whitesmoke;
+    background: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px;
+}
+
+.Form-title{
+    text-align: center;
+    font-size: 30px;
+}
+
+.input-section{
+    padding: 20px;
+}
+
+.input-section label {
+    font-size: 20px;
+}
+
+.input-box{
+    font-size: 20px;
+    border: solid;
+}
+
+.BTN{
+    margin: 0 80px  ;
+    border: solid;
+    font-size: 20px;
+    background-color: rgb(98, 216, 237);
+    text-align: center;
+    font-weight: 500;
+    /* padding-top: 20px; */
+    margin-top: 20px;
+}
+
+.BTN:hover{
+    cursor: pointer;
+    background-color: rgb(35, 163, 206);
+}
+
+.text-area{
+    border: solid;
+    width: 300px;
+    height: 150px;
+    margin-left: 50px;
+}
+
+.About-page{
+    padding: 20px;
+    text-align: justify;
+    text-align-last: center;
+    border: solid #e8f0f8;
+    box-shadow: 2px 2px;
+    margin: 122px auto;
+    border-radius: 20px;
+}
