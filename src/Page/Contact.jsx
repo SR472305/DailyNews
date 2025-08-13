@@ -18,7 +18,7 @@ const Contact = () => {
           <input type="password" className='input-box' />
         </div>
 
-       <textarea name="text-area" id="text-area" className='text-area'> how we can help you</textarea>
+       <textarea name="text-area" id="text-area" className='text-area' placeholder='How we can help you'></textarea>
 
         <div className='BTN'>
           <button>Submit</button>
