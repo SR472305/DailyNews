@@ -1,5 +1,5 @@
 import React from 'react'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createHashRouter, RouterProvider } from 'react-router-dom'
 import Layout from './Page/Layout'
 import Home from './Page/Home'
 import About from './Page/About'
@@ -10,7 +10,7 @@ import Loginsuccesfull from './Page/Loginsuccesfull'
 
 const App = () => {
 
-    let router = createBrowserRouter([{
+    let router = createHashRouter([{
         path:'/',
         element: <Layout />,
         children : [
