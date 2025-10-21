@@ -14,12 +14,12 @@ const App = () => {
         path:'/',
         element: <Layout />,
         children : [
-           {path:'/', element:<Home/>},
-           {path:'/News', element:<News/>},
-           {path:'/About', element:<About/>},
-           {path:'/Contact', element:<Contact/>},
-           {path:'/Login', element:<Login/>},
-           {path:'/Loginsuccesfull', element:<Loginsuccesfull/>}
+           {path:'', element:<Home/>},
+           {path:'News', element:<News/>},
+           {path:'About', element:<About/>},
+           {path:'Contact', element:<Contact/>},
+           {path:'Login', element:<Login/>},
+           {path:'Loginsuccesfull', element:<Loginsuccesfull/>}
           
         ]
     }])
