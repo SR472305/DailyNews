@@ -1,6 +1,6 @@
 {
   "name": "dailynews",
-  "homepage": "https://github.com/SR472305/DailyNews/",
+  "homepage": "https://SR472305.github.io/DailyNews/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "depoly" : "gh-pages -d dist"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.8.2",
